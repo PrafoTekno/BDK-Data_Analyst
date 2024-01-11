@@ -1,6 +1,6 @@
 
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0.5,
     "workbench.colorTheme": "Noctis Minimus",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 18,
