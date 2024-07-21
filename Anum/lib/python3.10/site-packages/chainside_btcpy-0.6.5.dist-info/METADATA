@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chainside-btcpy
+Version: 0.6.5
+Summary: A Python3 SegWit-compliant library which provides tools to handle Bitcoin data structures in a simple fashion.
+Home-page: https://github.com/chainside/btcpy
+Author: chainside srl
+Author-email: simone.bronzini@chainside.net
+License: UNKNOWN
+Download-URL: https://github.com/chainside/btcpy/archive/0.6.5.tar.gz
+Keywords: bitcoin,blockchain,bitcoind,chainside
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: ecdsa (==0.13)
+Provides-Extra: develop
+Requires-Dist: python-bitcoinlib (==0.7.0) ; extra == 'develop'
+
+UNKNOWN
+
+

@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: pyxdc
+Version: 0.1.2a1
+Summary: Python library with tools for XinFin blockchain.
+Home-page: https://github.com/meherett/pyxdc
+Author: Meheret Tesfaye
+Author-email: meherett@zoho.com
+License: MIT
+Keywords: xinfin,wallet,protocol,blockchain
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ecdsa (<1,>=0.13)
+Requires-Dist: mnemonic (<1,>=0.19)
+Requires-Dist: pysha3 (<2,>=1.0.2)
+Requires-Dist: ed25519 (<2,>=1.5)
+Requires-Dist: base58 (<3,>=2.0.1)
+Requires-Dist: requests (<3,>=2.25.0)
+Requires-Dist: hdwallet (<3,>=2.0.1)
+Requires-Dist: rlp (<3,>=2.0.1)
+Requires-Dist: web3 (<6,>=5.17.0)
+Provides-Extra: docs
+Requires-Dist: sphinx (<4,>=3.5.4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (<1,>=0.5.2) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest (<7,>=6.2.3) ; extra == 'tests'
+Requires-Dist: pytest-cov (<3,>=2.11.1) ; extra == 'tests'
+
+# PyXDC
+
+[![Build Status](https://travis-ci.com/meherett/pyxdc.svg?branch=master)](https://travis-ci.org/meherett/pyxdc?branch=master)
+[![PyPI Version](https://img.shields.io/pypi/v/pyxdc.svg?color=blue)](https://pypi.org/project/pyxdc)
+[![Documentation Status](https://readthedocs.org/projects/pyxdc/badge/?version=master)](https://pyxdc.readthedocs.io/en/master/?badge=master)
+[![PyPI Python Version](https://img.shields.io/pypi/pyversions/pyxdc.svg)](https://pypi.org/project/pyxdc)
+[![Coverage Status](https://coveralls.io/repos/github/meherett/pyxdc/badge.svg?branch=master)](https://coveralls.io/github/meherett/pyxdc?branch=master)
+
+Python library with tools for XinFin blockchain. 
+
+## Installation
+
+```
+$ pip install pyxdc
+```
+
+If you want to run the latest version of the code, you can install from git:
+
+```
+$ pip install git+git://github.com/meherett/pyxdc.git
+```
+
+For the versions available, see the [tags on this repository](https://github.com/meherett/pyxdc/tags).
+
+## Development
+
+We welcome pull requests. To get started, just fork this repository, clone it locally, and run:
+
+```
+$ pip install -e .[tests] -r requirements.txt
+```
+
+## Testing
+
+You can run the tests with:
+
+```
+$ pytest
+```
+
+Or use `tox` to run the complete suite against the full set of build targets, or pytest to run specific 
+tests against a specific version of Python.
+
+## License
+
+Distributed under the [MIT](https://github.com/meherett/pyxdc/blob/master/LICENSE) license. See ``LICENSE`` for more information.
+
+

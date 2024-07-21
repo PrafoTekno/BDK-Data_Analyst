@@ -1,0 +1,3 @@
+[console_scripts]
+swap = swap.cli.__main__:main
+

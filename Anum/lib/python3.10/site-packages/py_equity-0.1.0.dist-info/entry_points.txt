@@ -1,0 +1,3 @@
+[console_scripts]
+eqt = equity.cli.__main__:main
+
